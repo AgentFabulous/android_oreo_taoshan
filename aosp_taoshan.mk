@@ -15,6 +15,9 @@
 # limitations under the License.
 #
 
+# Get the long list of APNs
+PRODUCT_COPY_FILES += device/sony/taoshan/apns-full-conf.xml:system/etc/apns-conf.xml
+
 # Inherit common telephony configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
