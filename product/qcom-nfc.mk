@@ -17,4 +17,4 @@ PRODUCT_PACKAGES += \
     
 # NFC HAL
 PRODUCT_PACKAGES += \
-    nfc.msm8960
+    nfc_nci.taoshan
