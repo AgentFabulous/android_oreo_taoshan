@@ -28,4 +28,4 @@
 /dev/socket/tad                                 u:object_r:tad_socket:s0
 
 # Sysfs nodes
-/sys/class/timed_output/vibrator/level          u:object_r:sysfs_writable:s0
+/sys/class/timed_output/vibrator/level          u:object_r:sysfs_vibrator:s0
